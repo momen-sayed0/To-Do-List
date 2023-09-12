@@ -1,0 +1,167 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     background-color: rgb(68, 68, 68);
+     color: white;
+}
+
+.title h1 {
+     text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding-top: 40px;
+     padding-bottom: 20px;
+     font-size: 40px;
+}
+
+.textInput {
+     text-align: center;
+
+}
+
+.textInput input {
+     width: 50%;
+     font-size: 20px;
+     padding: 10px;
+     border-radius: 12px;
+     color: white;
+     background-color: rgb(41, 41, 41);
+     border: 1px solid rgb(41, 41, 41);
+     outline: none;
+}
+
+.textInput button {
+     font-size: 20px;
+     color: rgba(19, 205, 81, 0.688);
+     padding: 10px 30px;
+     border-radius: 32px;
+     border: 1px solid rgba(19, 205, 81, 0.688);
+     cursor: pointer;
+     background-color: rgb(68, 68, 68);
+}
+
+.container .h2 {
+     width: 1%;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding-top: 50px;
+     font-size: 25px;
+     position: relative;
+     left: 15%;
+}
+
+.container .tasks .row {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+     width: 64%;
+     height: 10vh;
+     position: relative;
+     left: 20%;
+     background-color: rgb(41, 41, 41);
+     border: 10px solid rgb(68, 68, 68);
+     border-radius: 22px;
+}
+
+.container .inputt {
+     width: 80%;
+}
+
+.container .inputt input {
+     width: 100%;
+     font-size: 18px;
+     padding-left: 20px;
+     color: white;
+     background-color: rgb(41, 41, 41);
+     border: none;
+     outline: none;
+}
+
+.container .btns {
+     display: flex;
+     flex-wrap: wrap;
+     width: 15%;
+     padding-right: 10px;
+}
+
+.container .btns .edit {
+     width: 100%;
+     font-size: 16px;
+     cursor: pointer;
+     color: rgba(19, 205, 81, 0.688);
+     background-color: rgb(68, 68, 68);
+     border-radius: 32px;
+     border: 3px solid rgba(19, 205, 81, 0.688);
+     padding: 5px 30px;
+}
+
+.container .btns .update {
+     width: 100%;
+     font-size: 16px;
+     cursor: pointer;
+     color: rgba(165, 198, 247, 0.688);
+     background-color: rgb(68, 68, 68);
+     border-radius: 32px;
+     border: 3px solid rgba(11, 91, 212, 0.688);
+     padding: 5px 30px;
+}
+
+.container .btns .delete {
+     width: 100%;
+     font-size: 16px;
+     cursor: pointer;
+     color: rgba(255, 70, 70, 0.688);
+     background-color: rgb(68, 68, 68);
+     border-radius: 32px;
+     border: 3px solid rgba(255, 70, 70, 0.688);
+     padding: 5px 30px;
+}
+
+i {
+     font-size: 25px;
+     cursor: pointer;
+     padding: 10px;
+
+}
+
+footer h1 {
+     text-align: center;
+     font-family: poppins;
+     font-size: 20px;
+     padding: 10px;
+}
+
+footer a {
+     color: rgba(68, 68, 224, 0.534);
+     text-decoration: none;
+
+}
+
+
+@media (max-width: 950px) {
+     .textInput input {
+          width: 57%;
+     }
+
+     .container .h2 {
+          left: 5%;
+          font-size: 18px;
+     }
+/*       */
+.container .tasks .row {
+     width: 90%;
+     height: 10vh;
+     left: 2%;
+}
+
+.container .inputt {
+     width: 51%;
+}
+
+.container .btns {
+     width: 35%;
+}
+
+}
